@@ -1,11 +1,22 @@
 {
-    "$schema": "https://schemas.wp.org/wp/6.4/theme.json",
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
     "version": 2,
+    "settings": {
+        "appearanceTools": true,
+        "useRootPaddingAwareAlignments": false,
+        "layout": {
+            "contentSize": "1000px",
+            "wideSize": "1000px"
+        }
+    },
+    "styles": {},
+    "customTemplates": [],
     "templateParts": [
         {
+            "area": "header",
             "name": "header",
-            "title": "Header",
-            "area": "header"
+            "title": "Header"
         }
-    ]
+    ],
+    "patterns": []
 }
