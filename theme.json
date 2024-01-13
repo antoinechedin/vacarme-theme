@@ -7,6 +7,41 @@
         "layout": {
             "contentSize": "1000px",
             "wideSize": "1000px"
+        },
+        "typography": {
+            "fontFamilies": [
+                {
+                    "name": "Primary",
+                    "slug": "primary",
+                    "fontFamily": "'Avara Bold'",
+                    "fontFace": [
+                        {
+                            "fontFamily": "'Avara Bold'",
+                            "fontWeight": "normal",
+                            "fontStyle": "normal",
+                            "src": [
+                                "file:./fonts/Avara-Bold.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "'Avara Bold'",
+                            "fontWeight": "normal",
+                            "fontStyle": "italic",
+                            "src": [
+                                "file:./fonts/Avara-BoldItalic.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "'Avara Bold'",
+                            "fontWeight": "bold",
+                            "fontStyle": "normal",
+                            "src": [
+                                "file:./fonts/Avara-Black.woff2"
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
     },
     "styles": {},
