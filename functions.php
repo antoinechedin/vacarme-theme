@@ -15,6 +15,7 @@ endif;
 
 function vacarme_scripts()
 {
+    wp_enqueue_style('vacarme',get_stylesheet_uri());
     wp_enqueue_style('leaflet', 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css');
     wp_enqueue_script('leaflet', 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js');
 }

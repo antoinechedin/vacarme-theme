@@ -934,3 +934,25 @@ textarea {
     margin-right: auto;
     margin-bottom: 1.5em;
 }
+
+:root {
+    --header-height: 80px;
+}
+
+.header {
+    max-height: var(--header-height);
+    padding: 1em 0 0;
+    box-sizing: content-box;
+    background-color: #e9c167;
+    border-bottom: 16px solid;
+    border-image: url(img/header-border.png) 0 0 14 0;
+    border-image-outset: 14px;
+}
+
+.header .wp-block-site-logo {
+    height: var(--header-height);
+}
+
+.container {
+    padding: 0 1em;
+}
