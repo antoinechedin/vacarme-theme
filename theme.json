@@ -5,8 +5,7 @@
         "appearanceTools": true,
         "useRootPaddingAwareAlignments": false,
         "layout": {
-            "contentSize": "1000px",
-            "wideSize": "1000px"
+            "contentSize": "1100px"
         },
         "typography": {
             "fontFamilies": [
