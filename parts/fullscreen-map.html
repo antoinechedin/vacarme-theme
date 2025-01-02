@@ -1,26 +1,4 @@
 <!-- wp:group -->
 <div id="map" style="min-height:80vh">
 </div>
-<script>
-    // Debug function to simulate long loading time
-    function wait(ms) {
-        var start = new Date().getTime();
-        var end = start;
-        while (end < start + ms) {
-            end = new Date().getTime();
-        }
-    }
-
-    window.onload = (event) => {
-        var map = L.map('map', {
-            zoomDelta: 0.25,
-            zoomSnap: 0,
-        }).setView([0, 0], 2.5);
-        L.tileLayer('http://89.168.46.40/map/{z}/{y}_{x}.jpg', {
-            maxZoom: 7,
-            minZoom: 3,
-            attribution: '&copy; Vacarme'
-        }).addTo(map);
-    }
-</script>
 <!-- /wp:group -->
