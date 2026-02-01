@@ -1,88 +1,89 @@
 {
-    "$schema": "https://schemas.wp.org/trunk/theme.json",
-    "version": 2,
-    "settings": {
-        "appearanceTools": true,
-        "useRootPaddingAwareAlignments": false,
-        "layout": {
-            "contentSize": "1100px"
-        },
-        "typography": {
-            "fontFamilies": [
-                {
-                    "name": "Primary",
-                    "slug": "primary",
-                    "fontFamily": "'Avara Bold'",
-                    "fontFace": [
-                        {
-                            "fontFamily": "'Avara Bold'",
-                            "fontWeight": "normal",
-                            "fontStyle": "normal",
-                            "src": [
-                                "file:./fonts/Avara-Bold.woff2"
-                            ]
-                        },
-                        {
-                            "fontFamily": "'Avara Bold'",
-                            "fontWeight": "normal",
-                            "fontStyle": "italic",
-                            "src": [
-                                "file:./fonts/Avara-BoldItalic.woff2"
-                            ]
-                        },
-                        {
-                            "fontFamily": "'Avara Bold'",
-                            "fontWeight": "bold",
-                            "fontStyle": "normal",
-                            "src": [
-                                "file:./fonts/Avara-Black.woff2"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Title",
-                    "slug": "title",
-                    "fontFamily": "Chris Costello",
-                    "fontFace": [
-                        {
-                            "fontFamily": "Chris Costello",
-                            "fontWeight": "normal",
-                            "fontStyle": "normal",
-                            "src": [
-                                "file:./fonts/ChrisCostello_LPT_Regular.woff2"
-                            ]
-                        },
-                        {
-                            "fontFamily": "Chris Costello",
-                            "fontWeight": "normal",
-                            "fontStyle": "italic",
-                            "src": [
-                                "file:./fonts/ChrisCostello_LPT_Italic.woff2"
-                            ]
-                        },
-                        {
-                            "fontFamily": "Chris Costello",
-                            "fontWeight": "bold",
-                            "fontStyle": "normal",
-                            "src": [
-                                "file:./fonts/ChrisCostello_LPT_Bold.woff2"
-                            ]
-                        },
-                        {
-                            "fontFamily": "Chris Costello",
-                            "fontWeight": "bold",
-                            "fontStyle": "italic",
-                            "src": [
-                                "file:./fonts/ChrisCostello_LPT_Bold_Italic.woff2"
-                            ]
-                        }
-                    ]
-                }
-            ]
-        }
-    },
-    "styles": {
+	"$schema": "https://schemas.wp.org/wp/6.4/theme.json",
+	"customTemplates": [],
+	"patterns": [],
+	"settings": {
+		"appearanceTools": true,
+		"layout": {
+			"contentSize": "1100px"
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFace": [
+						{
+							"fontFamily": "'Avara Bold'",
+							"fontStyle": "normal",
+							"fontWeight": "normal",
+							"src": [
+								"file:./fonts/Avara-Bold.woff2"
+							]
+						},
+						{
+							"fontFamily": "'Avara Bold'",
+							"fontStyle": "italic",
+							"fontWeight": "normal",
+							"src": [
+								"file:./fonts/Avara-BoldItalic.woff2"
+							]
+						},
+						{
+							"fontFamily": "'Avara Bold'",
+							"fontStyle": "normal",
+							"fontWeight": "bold",
+							"src": [
+								"file:./fonts/Avara-Black.woff2"
+							]
+						}
+					],
+					"fontFamily": "'Avara Bold'",
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Chris Costello",
+							"fontStyle": "normal",
+							"fontWeight": "normal",
+							"src": [
+								"file:./fonts/ChrisCostello_LPT_Regular.woff2"
+							]
+						},
+						{
+							"fontFamily": "Chris Costello",
+							"fontStyle": "italic",
+							"fontWeight": "normal",
+							"src": [
+								"file:./fonts/ChrisCostello_LPT_Italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Chris Costello",
+							"fontStyle": "normal",
+							"fontWeight": "bold",
+							"src": [
+								"file:./fonts/ChrisCostello_LPT_Bold.woff2"
+							]
+						},
+						{
+							"fontFamily": "Chris Costello",
+							"fontStyle": "italic",
+							"fontWeight": "bold",
+							"src": [
+								"file:./fonts/ChrisCostello_LPT_Bold_Italic.woff2"
+							]
+						}
+					],
+					"fontFamily": "Chris Costello",
+					"name": "Title",
+					"slug": "title"
+				}
+			]
+		},
+		"useRootPaddingAwareAlignments": false
+	},
+	"styles": {
 		"elements": {
 			"heading": {
 				"typography": {
@@ -90,15 +91,17 @@
 					"textTransform": "uppercase"
 				}
 			}
+		},
+		"typography": {
+			"lineHeight": "1.2"
 		}
 	},
-    "customTemplates": [],
-    "templateParts": [
-        {
-            "area": "header",
-            "name": "header",
-            "title": "Header"
-        }
-    ],
-    "patterns": []
+	"templateParts": [
+		{
+			"area": "header",
+			"name": "header",
+			"title": "Header"
+		}
+	],
+	"version": 2
 }
