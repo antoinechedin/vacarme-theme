@@ -82,7 +82,16 @@
             ]
         }
     },
-    "styles": {},
+    "styles": {
+		"elements": {
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--title)",
+					"textTransform": "uppercase"
+				}
+			}
+		}
+	},
     "customTemplates": [],
     "templateParts": [
         {
