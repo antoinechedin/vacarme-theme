@@ -39,6 +39,45 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "name": "Title",
+                    "slug": "title",
+                    "fontFamily": "Chris Costello",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Chris Costello",
+                            "fontWeight": "normal",
+                            "fontStyle": "normal",
+                            "src": [
+                                "file:./fonts/ChrisCostello_LPT_Regular.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Chris Costello",
+                            "fontWeight": "normal",
+                            "fontStyle": "italic",
+                            "src": [
+                                "file:./fonts/ChrisCostello_LPT_Italic.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Chris Costello",
+                            "fontWeight": "bold",
+                            "fontStyle": "normal",
+                            "src": [
+                                "file:./fonts/ChrisCostello_LPT_Bold.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Chris Costello",
+                            "fontWeight": "bold",
+                            "fontStyle": "italic",
+                            "src": [
+                                "file:./fonts/ChrisCostello_LPT_Bold_Italic.woff2"
+                            ]
+                        }
+                    ]
                 }
             ]
         }
