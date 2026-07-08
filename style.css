@@ -966,7 +966,7 @@ body {
 
 
 .inner {
-    padding: 0 1.5rem 4rem 1.5rem;
+    padding: 2rem 1.5rem 4rem 1.5rem;
     border-image: url(img/paper-border.png) 0 31 fill;
     border-left: 31px solid transparent;
     border-right: 31px solid transparent;
