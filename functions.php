@@ -19,7 +19,6 @@ function vacarme_scripts()
     wp_enqueue_style('vacarme', get_stylesheet_uri());
     wp_enqueue_style('leaflet', 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css');
     wp_enqueue_script('leaflet', 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js');
-    wp_enqueue_script('vacarme', get_template_directory_uri() . '/map.js');
 
     $map_hyperlinks = get_posts(array(
         'numberposts' => -1,
@@ -35,9 +34,9 @@ function vacarme_scripts()
     }, $map_hyperlinks);
 
     wp_add_inline_script(
-        'vacarme',
+        'leaflet',
         'const geojsonHyperlinks = [' . join(',', $json_map_hyperlinks) . '];',
-        'before'
+        'after'
     );
 }
 add_action('wp_enqueue_scripts', 'vacarme_scripts');
