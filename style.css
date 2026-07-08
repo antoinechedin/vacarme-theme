@@ -974,7 +974,13 @@ body {
 }
 
 .header-inner {
-    padding: 0 30px;
+    max-height: var(--header-height);
+    padding: 0 5px;
+}
+
+.header-inner nav {
+    height: 32px;
+    line-height: 0.3rem;
 }
 
 .sidebar {
